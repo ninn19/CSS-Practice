@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: sans-serif;
+  color: #40514e;
+  cursor: default;
+}
+
+h1,
+h2 {
+  color: #64baba;
+  margin: 0 auto;
+  padding: 15px;
+  font-weight: normal;
+  font-family: "Dancing Script", cursive;
+}
+h1 {
+  font-size: 4rem;
+  padding-top: 100px;
+  font-family: "Dancing Script", cursive;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  color: #11999e;
+  margin: 10px;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: #b0b7b7 dotted 6px;
+  border-bottom: none;
+  width: 50px;
+  margin: 50px auto;
+}
+.profile {
+  background-color: aliceblue;
+}
+.pro {
+  font-weight: 700;
+}
+.cloud-1 {
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+.cloud-2 {
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+}
+/*section2*/
+.main {
+  margin-top: 100px;
+}
+.main img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.main div {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/*section3*/
+.skill-row {
+  width: 70%;
+  margin: 50px auto;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.code {
+  width: 25%;
+  margin-right: 30px;
+}
+.computer {
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+/* section3 */
+.contact {
+  width: 50%;
+  margin: 50px auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #11cdd4;
+  border: #11999e;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin: 20px;
+  transition: all 400ms;
+}
+.btn:hover {
+  background-color: #66bfbf;
+  border: #2bc4ad;
+  transform: translatey(-0.2rem);
+}
+footer {
+  background-color: #66bfbf;
+  color: #eaf6f6;
+  padding: 20px;
+}
+footer a {
+  color: #11999e;
+  padding: 5px 15px;
+  margin: 20px;
+}
+footer a:hover {
+  border-bottom: #11999e solid 2px;
+  color: #eaf6f6;
+}
+.paragraph {
+  padding: 20px 0;
+  font-size: 0.8rem;
+}
